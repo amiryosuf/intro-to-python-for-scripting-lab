@@ -39,6 +39,8 @@ def check_letter():
 
 
 
+
+
 # Problem 2: Old enough to vote?
 #
 # Write a Python function named `check_voting_eligibility` that determines if a
@@ -83,6 +85,7 @@ def check_voting_eligibility():
         print("You are eligible to vote.")
     else:
         print("You are not eligible to vote.")
+
 
 
 
@@ -135,6 +138,7 @@ def calculate_dog_years():
 
 
 
+
 # Problem 4: Weather advice
 #
 # Write a Python script named `weather_advice` that provides clothing advice
@@ -173,7 +177,6 @@ def weather_advice():
     else:
         print("Wear light clothing.")
 
-# Call the function
 
 
 
