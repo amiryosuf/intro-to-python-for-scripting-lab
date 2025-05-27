@@ -11,9 +11,10 @@ def check_letter():
     lower_letter = letter.lower()
 
     # Check if the letter is a vowel or consonant
-    if lower_letter in 'a, e, i, o & u':
+    if lower_letter in 'aeiou':
         print(f"The letter {letter} is a vowel.")
     else:
         print(f"The letter {letter} is a consonant.")
 
 # Call the function to execute it
+check_letter()
