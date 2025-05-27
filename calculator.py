@@ -23,7 +23,3 @@ print(f"The result of {num1} {operator} {num2} is: {result}")
 # It prompts the user for two numbers and an operator, performs the operation,
 # and prints the result. It handles division by zero and invalid operators gracefully.
 
-Enter the first number: 1
-Enter an operator (+, -, *, /): *
-Enter the second number: 5
-Result: 6.0
