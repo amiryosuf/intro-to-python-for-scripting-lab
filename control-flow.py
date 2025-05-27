@@ -12,11 +12,7 @@
 # - Replace 'x' with the actual letter entered by the user in the above
 #   messages.
 #
-# Hints:
-# - Use the `input()` function to capture user input.
-# - Utilize the `in` operator to check for vowels. You may need to look up
-#   how to use this online.
-# - Ensure your code provides feedback for non-alphabetical or invalid entries.
+
 
 def check_letter():
     # Prompt the user to enter a letter
@@ -56,12 +52,7 @@ def check_letter():
 # - Print a message indicating whether the user is eligible to vote based on the
 #   entered age.
 #
-# Hints:
-# - Use the `input()` function to capture the user's age.
-# - Use `int()` to convert the input to an integer. Ensure that you handle any 
-#   conversion errors gracefully. You may need to look up how to do this online.
-# - Use a conditional statement to check if the age meets the minimum voting age
-#   requirement.
+
 
 def check_voting_eligibility():
     # Prompt the user to enter their age
@@ -105,11 +96,7 @@ def check_voting_eligibility():
 # - Print the calculated age: "The dog's age in dog years is xx."
 # - Replace 'xx' with the calculated dog years.
 #
-# Hints:
-# - Use the `input()` function to capture user input.
-# - Convert the string input to an integer using `int()`.
-# - Apply conditional logic to perform the correct age calculation based on the
-#   dog's age.
+
 
 def calculate_dog_years():
     # Prompt the user to enter the dog's age
@@ -153,9 +140,7 @@ def calculate_dog_years():
 #   - If it is NOT cold but raining, print "Carry an umbrella."
 #   - If it is NOT cold AND NOT raining, print "Wear light clothing."
 #
-# Hints:
-# - Use logical operators (`AND`, `OR`, `NOT`) in your if statements to handle
-#   multiple conditions.
+
 
 def weather_advice():
     # Prompt the user for weather conditions
@@ -200,11 +185,7 @@ def weather_advice():
 # - Print the season for the entered date in the format: "<Mmm> <dd> is in
 #   <season>."
 #
-# Hints:
-# - Use 'in' to check if a string is in a list or tuple.
-# - Adjust the season based on the day of the month when needed.
-# - Ensure you validate the user's input and handle unexpected inputs
-#   gracefully.
+
 
 def determine_season():
     # Prompt the user for the month and day
